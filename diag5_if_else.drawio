@@ -1,0 +1,74 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Page-1" id="g-YF9lOLX_BcZsu5atzZ">
+    <mxGraphModel dx="1581" dy="784" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TnHOnMOvKYUC9E9S14Lx-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="STOP" vertex="1">
+          <mxGeometry height="100" width="150" x="260" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="TnHOnMOvKYUC9E9S14Lx-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Program 5&lt;div&gt;&lt;br&gt;input age of customer&lt;/div&gt;&lt;div&gt;if customer is 18+&amp;nbsp;&lt;br&gt;print &quot;you get a beer&quot;&lt;/div&gt;&lt;div&gt;if not&lt;/div&gt;&lt;div&gt;print &quot;you get coke&quot;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="90" width="200" x="480" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-2" edge="1" parent="1" source="TnHOnMOvKYUC9E9S14Lx-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N9LFWPIVHfNN4uMYDsif-1" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TnHOnMOvKYUC9E9S14Lx-6" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="START" vertex="1">
+          <mxGeometry height="100" width="150" x="260" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-11" edge="1" parent="1" source="N9LFWPIVHfNN4uMYDsif-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N9LFWPIVHfNN4uMYDsif-3" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-1" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.loop_limit;whiteSpace=wrap;" value="customer_age" vertex="1">
+          <mxGeometry height="60" width="100" x="285" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-4" edge="1" parent="1" source="N9LFWPIVHfNN4uMYDsif-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N9LFWPIVHfNN4uMYDsif-5">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-8" connectable="0" parent="N9LFWPIVHfNN4uMYDsif-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="YES" vertex="1">
+          <mxGeometry relative="1" x="-0.0564" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-7" edge="1" parent="1" source="N9LFWPIVHfNN4uMYDsif-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="N9LFWPIVHfNN4uMYDsif-6" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-9" connectable="0" parent="N9LFWPIVHfNN4uMYDsif-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="NO" vertex="1">
+          <mxGeometry relative="1" x="-0.6602" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-3" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.decision;whiteSpace=wrap;" value="if&lt;div&gt;customer_age &amp;gt;= 18&lt;/div&gt;" vertex="1">
+          <mxGeometry height="170" width="225" x="222.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-12" edge="1" parent="1" source="N9LFWPIVHfNN4uMYDsif-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="TnHOnMOvKYUC9E9S14Lx-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="510" />
+              <mxPoint x="335" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-5" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;You get a Beer&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="60" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-13" edge="1" parent="1" source="N9LFWPIVHfNN4uMYDsif-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="TnHOnMOvKYUC9E9S14Lx-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="560" y="510" />
+              <mxPoint x="335" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-6" parent="1" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" value="&quot;You get a Coke&quot;" vertex="1">
+          <mxGeometry height="80" width="120" x="500" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="N9LFWPIVHfNN4uMYDsif-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Exercise:&lt;div&gt;input 2 numbers&lt;/div&gt;&lt;div&gt;print the bigger&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="130" x="590" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
